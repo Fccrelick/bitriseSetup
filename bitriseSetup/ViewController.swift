@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    func addTwoNumbers(a: Int, b: Int) -> Int {
+        return a + b
+    }
+    
+    func subtractTwoNumbers(a: Int, b: Int) -> Int {
+        return a - b
+    }
 
 }
 
