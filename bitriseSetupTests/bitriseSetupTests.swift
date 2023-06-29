@@ -23,6 +23,10 @@ final class bitriseSetupTests: XCTestCase {
     func testSub() {
         XCTAssertEqual(viewController.subtractTwoNumbers(a: 2, b: 1), 1)
     }
+    
+    func testDivide() {
+        XCTAssertEqual(viewController.divideTwoNumbers(a: 2, b: 1), 0)
+    }
 
 
 }
